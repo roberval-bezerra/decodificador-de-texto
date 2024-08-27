@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador e Codificador de</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/espião.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <main class="main container">
+            <header class="cabecalho">
+                <img src="assets/espião.gif" alt="Imagem espião">
+                <h1>Codificador e decodificador de texto.</h1>
+            </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite um texto para criptografar ou descriptografar."></textarea>
+                <p id="input-texto-2">ATENÇÂO: Digite apenas letras minúsculas e sem acento.</p>
+            </div>
+            
+        <div class="-output">
+            <div id="output">
+                <img src="assets/espião.png" alt="Imagem espião">
+                <!-- <textarea id="input" placeholder=""></textarea> -->
+                <h2>Sua mensagem!</h2>
+                <!-- <span>Digite o texto para criptografar ou descriptografar.</span> -->
+            </div>
+        </div>
+
+        </div>
+
+        <div class="buttons">
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+        </main>
+
+        <footer class="rodape">
+            <div class="icons">
+                <a href="https://github.com/roberval-bezerra"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://br.linkedin.com/in/roberval-bezerra"><ion-icon name="logo-linkedin"></ion-icon></a> 
+            </div>
+            <h3>Desenvolvido por Roberval Bezerra.</h3>
+        </footer>
+
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+
+    </html>
